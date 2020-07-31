@@ -37,4 +37,11 @@ public class FibonacciTest
     {
         Assertions.assertEquals(55,this.fibonacci.fibo(10));
     }
+
+
+    @EnergyTest
+    public void fibonacciThirtyShouldBeALot()
+    {
+        Assertions.assertEquals(832040,this.fibonacci.fibo(30));
+    }
 }
